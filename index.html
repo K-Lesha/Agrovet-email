@@ -40,6 +40,10 @@
     h1, h2, h3 {
       margin: 0 0 15px;
     }
+      h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
     p {
       margin: 0 0 10px;
       font-size: 14px;
@@ -86,14 +90,18 @@
       
       
       
-      <!-- Header with logo and navigation -->
-<div style="display: flex; align-items: center; justify-content: space-between; padding: 20px 20px 10px 20px; border-bottom: 1px solid #ccc;">
+<!-- Header with logo and navigation -->
+<div style="display: flex; align-items: center; justify-content: space-between; padding: 20px; border-bottom: 1px solid #ccc; flex-wrap: nowrap;">
   <img src="https://eudegrz.stripocdn.email/content/guids/CABINET_ea6eb1612b87b84d02003fdb9ce6bc4037a1106d4f9ca513490533b0727c6597/images/bez_nazvania_328_x_82_piks2.png" alt="Agrovet Logo" style="height: 50px;">
-  <div style="font-size: 16px; font-weight: bold;">
-    <a href="https://3a-austria.eu" style="color: #000; text-decoration: none; margin: 0 10px;">Home</a> |
-    <a href="https://3a-austria.eu/products" style="color: #000; text-decoration: none; margin: 0 10px;">Products</a> |
-    <a href="https://3a-austria.eu/#contacts" style="color: #000; text-decoration: none; margin: 0 10px;">Contacts</a> |
-    <a href="https://3a-austria.eu/news" style="color: #000; text-decoration: none; margin: 0 10px;">News</a>
+
+  <div style="display: flex; align-items: center; font-size: 16px; font-weight: bold; gap: 20px; flex-wrap: nowrap;">
+    <a href="https://3a-austria.eu" style="color: #000; text-decoration: none;">Home</a>
+    <span>|</span>
+    <a href="https://3a-austria.eu/products" style="color: #000; text-decoration: none;">Products</a>
+    <span>|</span>
+    <a href="https://3a-austria.eu/#contacts" style="color: #000; text-decoration: none;">Contacts</a>
+    <span>|</span>
+    <a href="https://3a-austria.eu/news" style="color: #000; text-decoration: none;">News</a>
   </div>
 </div>
 
@@ -117,15 +125,20 @@
       
       
       
-    <div class="section two-columns">
-      <div class="column">
-        <h2>About Us</h2>
-        <p>We are an Austrian company based in Vienna, producing <strong>natural, antibiotic-free feed additives</strong> since 2009. We serve <strong>all major livestock species</strong> like cattle, pigs, poultry, horses, and more. Certified with <strong>QS and GMP+</strong>, we offer <strong>safe, effective, and practical solutions</strong> for modern farming. Today, our products are used in <strong>over 30 countries</strong>, helping raise healthier animals with less dependence on antibiotics</p>
-      </div>
-      <div class="column">
-        <img src="https://eudegrz.stripocdn.email/content/guids/CABINET_ea6eb1612b87b84d02003fdb9ce6bc4037a1106d4f9ca513490533b0727c6597/images/ecopol_kopia_kopia_kopia.png" alt="Ecopol">
-      </div>
-    </div>
+<div style="display: flex; align-items: stretch; gap: 20px;">
+  <!-- Левая колонка с текстом -->
+  <div style="flex: 1; padding: 20px;">
+    <h2 style="font-size: 32px; font-weight: 700;">About Us</h2>
+    <p style="font-size: 16px; line-height: 1.5;">
+      We are an Austrian company based in Vienna, producing <strong>natural, antibiotic-free feed additives</strong> since 2009. We serve <strong>all major livestock species</strong> like cattle, pigs, poultry, horses, and more. Certified with <strong>QS and GMP+</strong>, we offer <strong>safe, effective, and practical solutions</strong> for modern farming. Today, our products are used in <strong>over 30 countries</strong>, helping raise healthier animals with less dependence on antibiotics.
+    </p>
+  </div>
+
+  <!-- Правая колонка с изображением -->
+  <div style="flex: 1; padding: 20px;">
+    <img src="https://eudegrz.stripocdn.email/content/guids/CABINET_ea6eb1612b87b84d02003fdb9ce6bc4037a1106d4f9ca513490533b0727c6597/images/ecopol_kopia_kopia_kopia.png" alt="Products" style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
+  </div>
+</div>
       
       
 
